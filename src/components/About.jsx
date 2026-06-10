@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Award, BookOpen, Sparkles } from 'lucide-react'
-import { aboutStats, aboutTimeline } from '../data/portfolioData'
+import { aboutStats, aboutTimeline, certificates } from '../data/portfolioData'
 
 export default function About() {
   return (

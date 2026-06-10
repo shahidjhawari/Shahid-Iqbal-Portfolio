@@ -4,6 +4,7 @@ export const navLinks = [
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
   { id: 'experience', label: 'Experience' },
+  { id: 'certificates', label: 'Certificates' },
   { id: 'contact', label: 'Contact' },
 ]
 
@@ -135,6 +136,27 @@ export const experience = [
     role: 'Web Developer',
     company: 'Various (training & agency)',
     summary: 'Worked across PHP, MySQL and modern JavaScript stacks to build and ship production websites and course material.',
+  },
+]
+
+export const certificates = [
+  {
+    title: 'Microsoft Professional Certificate',
+    issuer: 'Coursera / Microsoft',
+    description: 'Verified credential for professional development in Microsoft technologies and cloud-enabled web development.',
+    link: 'https://www.coursera.org/account/accomplishments/verify/OWE7Q0H8GB95',
+  },
+  {
+    title: 'Microsoft Professional Certificate',
+    issuer: 'Coursera / Microsoft',
+    description: 'Verified professional credential focused on practical development skills and Microsoft platform adoption.',
+    link: 'https://www.coursera.org/account/accomplishments/verify/TZSMBSD08JC1',
+  },
+  {
+    title: 'Microsoft Professional Certificate',
+    issuer: 'Coursera / Microsoft',
+    description: 'Verified certification demonstrating ability to deliver quality solutions using Microsoft-backed tools and methodologies.',
+    link: 'https://www.coursera.org/account/accomplishments/verify/O0QM4YBD5SLT',
   },
 ]
 
