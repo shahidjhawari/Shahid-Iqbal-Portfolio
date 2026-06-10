@@ -44,7 +44,7 @@ function App() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="relative min-h-screen overflow-hidden bg-[#0A0A0A] text-white"
+            className="relative min-h-screen overflow-x-hidden bg-[#0A0A0A] text-white"
           >
             <Navbar />
             <CustomCursor />

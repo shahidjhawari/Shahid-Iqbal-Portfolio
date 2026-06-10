@@ -109,15 +109,15 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.9, ease: 'easeOut' }}
-          className="relative mx-auto flex max-w-xl items-center justify-center"
+          className="relative mx-auto flex w-full max-w-xl items-center justify-center"
         >
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-1 shadow-glass">
+          <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-1 shadow-glass max-w-[440px] w-full">
             <div className="relative overflow-hidden rounded-[1.75rem] bg-[#111111] p-6 ring-1 ring-white/5">
               <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-slate-100/10 to-transparent" />
-              <div className="relative flex h-[420px] items-center justify-center rounded-[1.5rem] border border-white/5 bg-gradient-to-br from-[#141414] via-[#0d0d0d] to-[#090909] shadow-[inset_0_0_80px_rgba(255,255,255,0.06)]">
+              <div className="relative flex h-[320px] w-full items-center justify-center rounded-[1.5rem] border border-white/5 bg-gradient-to-br from-[#141414] via-[#0d0d0d] to-[#090909] shadow-[inset_0_0_80px_rgba(255,255,255,0.06)] sm:h-[420px]">
                 <div className="absolute -left-10 top-16 h-28 w-28 rounded-full bg-slate-400/10 blur-3xl" />
                 <div className="absolute -right-10 bottom-16 h-24 w-24 rounded-full bg-slate-200/5 blur-3xl" />
-                <div className="relative flex h-[360px] w-[360px] items-center justify-center rounded-[2rem] border border-slate-400/10 bg-[#090909] p-2 shadow-[0_30px_90px_rgba(0,0,0,0.45)]">
+                <div className="relative flex h-full w-full max-w-[360px] items-center justify-center rounded-[2rem] border border-slate-400/10 bg-[#090909] p-2 shadow-[0_30px_90px_rgba(0,0,0,0.45)] sm:h-[360px]">
                   <img
                     src={profileImg}
                     alt="Shahid Iqbal profile"
