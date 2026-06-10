@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation'
 import { ArrowUpRight, Download, GitBranch, Link2, Mail } from 'lucide-react'
 import { Link as ScrollLink } from 'react-scroll'
 import ParticlesBackground from './ParticlesBackground'
+import profileImg from '../assets/profile.png'
 
 const socialLinks = [
   {
@@ -111,13 +112,19 @@ export default function Hero() {
           className="relative mx-auto flex max-w-xl items-center justify-center"
         >
           <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-1 shadow-glass">
-            <div className="relative overflow-hidden rounded-[1.75rem] bg-[#111111] p-8 ring-1 ring-white/5">
+            <div className="relative overflow-hidden rounded-[1.75rem] bg-[#111111] p-6 ring-1 ring-white/5">
               <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-slate-100/10 to-transparent" />
               <div className="relative flex h-[420px] items-center justify-center rounded-[1.5rem] border border-white/5 bg-gradient-to-br from-[#141414] via-[#0d0d0d] to-[#090909] shadow-[inset_0_0_80px_rgba(255,255,255,0.06)]">
-                <div className="flex h-72 w-72 items-center justify-center rounded-full border border-slate-400/10 bg-gradient-to-br from-[#1F1F1F] via-[#111111] to-[#0A0A0A] p-6 shadow-[0_24px_80px_rgba(0,0,0,0.45)]">
-                  <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-[#252525] via-[#161616] to-[#060606] text-7xl font-semibold tracking-[0.08em] text-slate-100">
-                    SI
-                  </div>
+                <div className="absolute -left-10 top-16 h-28 w-28 rounded-full bg-slate-400/10 blur-3xl" />
+                <div className="absolute -right-10 bottom-16 h-24 w-24 rounded-full bg-slate-200/5 blur-3xl" />
+                <div className="relative flex h-[360px] w-[360px] items-center justify-center rounded-[2rem] border border-slate-400/10 bg-[#090909] p-2 shadow-[0_30px_90px_rgba(0,0,0,0.45)]">
+                  <img
+                    src={profileImg}
+                    alt="Shahid Iqbal profile"
+                    className="h-full w-full rounded-[1.8rem] object-cover"
+                  />
+                  <div className="pointer-events-none absolute inset-0 rounded-[1.8rem] bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.18),transparent_32%)]" />
+                  <div className="pointer-events-none absolute inset-x-10 bottom-10 h-24 rounded-full bg-gradient-to-r from-slate-200/10 via-transparent to-slate-200/5 blur-2xl" />
                 </div>
               </div>
             </div>

@@ -41,6 +41,11 @@ textarea {
   min-height: 100vh;
 }
 
+body,
+body * {
+  color: #C0C0C0 !important;
+}
+
 ::selection {
   background: rgba(217, 217, 217, 0.24);
   color: #ffffff;
