@@ -54,7 +54,7 @@ export default function About() {
               </div>
               <div>
                 <p className="text-sm uppercase tracking-[0.35em] text-slate-400">Education</p>
-                <p className="mt-3 text-lg font-semibold text-white">Master of Computer Science</p>
+                <p className="mt-3 text-lg font-semibold text-white">BS Computer Science</p>
               </div>
             </div>
             <div className="mt-8 space-y-6">
