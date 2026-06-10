@@ -197,6 +197,13 @@ export const testimonials = [
   },
 ]
 
+export const youtubeChannel = {
+  title: 'Shahid Iqbal Official',
+  handle: '@shahidiqbaljhawari',
+  description: 'Subscribe for premium web development tutorials, MERN stack courses, React workflows, and full-stack project walkthroughs.',
+  link: 'https://www.youtube.com/@shahidiqbaljhawari',
+}
+
 export const contactDetails = {
   email: 'hello@shahidiqbal.dev',
   location: 'Remote / Worldwide',
