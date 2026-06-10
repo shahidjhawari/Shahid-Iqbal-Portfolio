@@ -201,4 +201,5 @@ export const contactDetails = {
   email: 'hello@shahidiqbal.dev',
   location: 'Remote / Worldwide',
   phone: '+1 (555) 012-3456',
+  youtube: 'https://www.youtube.com/@shahidiqbaljhawari',
 }
