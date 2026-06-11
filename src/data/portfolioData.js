@@ -141,21 +141,21 @@ export const experience = [
 
 export const certificates = [
   {
-    title: 'Microsoft Professional Certificate',
+    title: 'Foundations of Coding Full-Stack',
     issuer: 'Coursera / Microsoft',
     description: 'Verified credential for professional development in Microsoft technologies and cloud-enabled web development.',
     link: 'https://www.coursera.org/account/accomplishments/verify/OWE7Q0H8GB95',
   },
   {
-    title: 'Microsoft Professional Certificate',
-    issuer: 'Coursera / Microsoft',
-    description: 'Verified professional credential focused on practical development skills and Microsoft platform adoption.',
+    title: 'Introduction to Front-End Development',
+    issuer: 'Coursera / Meta',
+    description: 'Verified professional credential focused on practical development skills and Meta platform adoption.',
     link: 'https://www.coursera.org/account/accomplishments/verify/TZSMBSD08JC1',
   },
   {
-    title: 'Microsoft Professional Certificate',
-    issuer: 'Coursera / Microsoft',
-    description: 'Verified certification demonstrating ability to deliver quality solutions using Microsoft-backed tools and methodologies.',
+    title: 'Developing Back-End Apps with Node.js and Express',
+    issuer: 'Coursera / IBM',
+    description: 'Verified certification demonstrating ability to deliver quality solutions using IBM tools and methodologies.',
     link: 'https://www.coursera.org/account/accomplishments/verify/O0QM4YBD5SLT',
   },
 ]
@@ -205,8 +205,8 @@ export const youtubeChannel = {
 }
 
 export const contactDetails = {
-  email: 'hello@shahidiqbal.dev',
-  location: 'Remote / Worldwide',
-  phone: '+1 (555) 012-3456',
+  email: 'shahidjhawari@gmail.com',
+  location: 'Fer',
+  phone: '+923447014153',
   youtube: 'https://www.youtube.com/@shahidiqbaljhawari',
 }

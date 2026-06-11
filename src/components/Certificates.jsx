@@ -8,9 +8,9 @@ export default function Certificates() {
       <div className="mx-auto max-w-5xl space-y-10">
         <div className="space-y-4">
           <p className="text-sm uppercase tracking-[0.45em] text-slate-400">Certificates</p>
-          <h2 className="text-4xl font-semibold text-white sm:text-5xl">Verified Microsoft credentials and course completion badges</h2>
+          <h2 className="text-4xl font-semibold text-white sm:text-5xl">Industry-Recognized Certifications</h2>
           <p className="max-w-2xl text-lg leading-8 text-slate-300">
-            Each certificate is professionally verified through Coursera and showcases verified learning in Microsoft-backed technologies and development workflows.
+            A collection of verified professional certifications earned through globally recognized technology organizations including Microsoft, Meta, and IBM. These credentials reflect continuous learning, practical development experience, and expertise in modern web, mobile, frontend, and backend technologies.
           </p>
         </div>
 
