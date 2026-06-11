@@ -206,7 +206,7 @@ export const youtubeChannel = {
 
 export const contactDetails = {
   email: 'shahidjhawari@gmail.com',
-  location: 'Fer',
+  location: 'Sargodha, Punjab, Pakistan',
   phone: '+923447014153',
   youtube: 'https://www.youtube.com/@shahidiqbaljhawari',
 }
